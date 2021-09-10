@@ -22,10 +22,10 @@ Parameter support can be configured using the yargs library (https://www.npmjs.c
  
 ## Considerations
  
-The current version has a several cron strings the it is unable to support:
-Seconds.
-? for day of week.
-A value for year.
+The current version has a several cron strings that it is unable to support:
+- Seconds.
+- ? for day of week.
+- A value for year.
  
 ## Testing
  

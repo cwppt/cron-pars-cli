@@ -1,0 +1,30 @@
+{
+  "name": "cron-parse-cli",
+  "version": "1.0.0",
+  "description": "Command Line Cron Parser",
+  "main": "bin/index.js",
+  "bin": {
+    "cron-parse": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Chris Pain-Tolin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.1.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cron-converter": "^1.0.1",
+    "cron-validator": "^1.2.1",
+    "lodash": "^4.17.21",
+    "yargs": "^17.1.1"
+  }
+}
